@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+* {
+  color-scheme: light !important;
+}
+
+body {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+input, textarea, select {
+  background-color: #ffffff !important;
+  color: #111827 !important;
+  -webkit-text-fill-color: #111827 !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #9ca3af !important;
+  -webkit-text-fill-color: #9ca3af !important;
+}
